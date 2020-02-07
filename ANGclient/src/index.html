@@ -5,9 +5,52 @@
   <title>ANGclient</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+  
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  
+  <script src="https://kit.fontawesome.com/3dc51b38c0.js" crossorigin="anonymous"></script>
+
+
 </head>
-<body>
+
+<body style="margin: 0 auto; padding: 0;">
   <app-root></app-root>
+
+  <script>
+    
+
+    document.addEventListener('DOMContentLoaded',function(){
+
+      document.querySelector("#btn1").addEventListener("click",() => {
+        window.scroll({
+          top: window.innerHeight+40, 
+          left: 0, 
+          behavior: 'smooth'
+        });
+      },false);
+
+      document.querySelector("#btn2").addEventListener("click",() => {
+        window.scroll({
+          top: (window.innerHeight*2)+40, 
+          left: 0, 
+          behavior: 'smooth'
+        });
+      },false);
+
+    },false);
+  </script>
 </body>
 </html>

@@ -1,0 +1,106 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+   padding: 0px;
+}
+
+header{
+    height: auto;
+    background: #5BAD46;
+    color: white;
+    top: 0;
+    width: 100%;
+    text-align:center;
+}
+
+header h1{
+    padding-top: 15px;
+}
+
+header ul li{
+    display: inline;
+    text-align: center;
+    margin:20px;
+}
+header ul{
+    padding-inline-start: 0;
+    margin:0 auto;
+    padding-bottom: 10px;
+}
+
+header ul li:hover{
+    cursor: pointer;
+    color: palegreen;
+    transition: 0.5s;
+}
+
+header h1{
+    padding-bottom: 15px;
+    margin-bottom:0;
+    font-size: 24px;
+}
+
+.bloc-defi{
+    padding-top: 45px;
+}
+
+#main{
+  height: 100vh;
+  background: #ecf0f1;
+  color:black;
+}
+#second{
+  height: 100vh;
+  background: #34495e;
+  color: white;
+}
+#third{
+  height: 100vh;
+  background: #2ecc71;
+  color: white;
+}
+
+#main h1,h2{
+  text-align: center;
+}
+
+#main h1{
+  margin-top: 0;
+  padding-top: 10px;
+  font-size: 30px;
+}
+.btn-home{
+  width: 200px;
+  cursor: pointer;
+  border: none;
+  padding: 20px;
+}
+
+#btn1:hover{
+  background: #34495e;
+  transition: 0.5s;
+  color:white;
+}
+
+#btn2:hover{
+  background: #2ecc71;
+  transition: 0.5s;
+  color: #DEFFD4;
+}
+#main-button{
+  width:400px;
+  margin:0 auto;
+}
+
+#main-carousel{
+    width: 75%;
+    margin:0 auto;
+}
+
+p{
+  width: 75%;
+  margin:0 auto;
+  text-align: justify;
+}
