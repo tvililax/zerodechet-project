@@ -22,11 +22,13 @@ header h1{
 header ul li{
     display: inline;
     text-align: center;
-    margin:20px;
+    margin: 20px;
+    font-family: "Montserrat";
+    text-transform: uppercase;
 }
 header ul{
     padding-inline-start: 0;
-    margin:0 auto;
+    margin: 0 auto;
     padding-bottom: 10px;
 }
 
@@ -46,6 +48,15 @@ header h1{
     padding-top: 45px;
 }
 
+.main-title{
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 75%;
+  margin:0 auto;
+  margin-bottom: 20px;
+}
+
 #main{
   height: 100vh;
   background: #ecf0f1;
@@ -58,7 +69,7 @@ header h1{
 }
 #third{
   height: 100vh;
-  background: #2ecc71;
+  background: #5BAD46;
   color: white;
 }
 
@@ -76,6 +87,9 @@ header h1{
   cursor: pointer;
   border: none;
   padding: 20px;
+  background: #333;
+  color:white;
+  margin: 5px;
 }
 
 #btn1:hover{
@@ -85,22 +99,25 @@ header h1{
 }
 
 #btn2:hover{
-  background: #2ecc71;
+  background: #5BAD46;
   transition: 0.5s;
   color: #DEFFD4;
 }
 #main-button{
-  width:400px;
+  width:420px;
   margin:0 auto;
 }
 
 #main-carousel{
-    width: 75%;
+    width: 60%;
     margin:0 auto;
 }
 
 p{
   width: 75%;
-  margin:0 auto;
-  text-align: justify;
+  margin: 0 auto;
+}
+
+.col-sm p{
+  width: 100%;
 }
