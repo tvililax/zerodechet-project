@@ -76,6 +76,12 @@ header h1{
   padding-top: 10px;
   font-size: 30px;
 }
+
+#second{
+  color: white;
+  padding-bottom: 50px;
+}
+
 .btn-home{
   width: 160px;
   cursor: pointer;
@@ -118,6 +124,16 @@ p{
   margin-top: 5px;
 }
 
+.news-text{
+  width: 75%;
+  margin:0 auto;
+}
+
+.news-title{
+  font-weight: bold;
+  font-size: 20px;
+}
+
 .col-sm p{
   width: 100%;
 }
@@ -127,6 +143,26 @@ p{
   background: red;
 }
 
+#logo-list{
+  width: 50%;
+  margin:0 auto;
+}
+
+#logo-list img{
+  width: 25%;
+  padding: 15px;
+  box-sizing: border-box !important;
+  -webkit-filter: grayscale(100%); /* Pour les navigateurs Chrome, Safari, Opera */
+  filter: grayscale(100%); /* Firefox */
+}
+
+#logo-list img:hover{
+  -webkit-filter: grayscale(0%); /* Pour les navigateurs Chrome, Safari, Opera */
+  filter: grayscale(0%); /* Firefox */
+  cursor: pointer;
+  transition: 0.5s;
+}
+
 footer{
   font-size: 12px;
   background: #5BAD46;
@@ -134,4 +170,14 @@ footer{
   text-align: center;
   padding: 20px;
   margin-top: 50px;
+}
+
+/*** mobile ***/
+
+@media screen and (max-width: 575px) {
+    #logo-list img{
+      width: 80%;
+      padding: 15px;
+      box-sizing: inherit !important;
+    }
 }
