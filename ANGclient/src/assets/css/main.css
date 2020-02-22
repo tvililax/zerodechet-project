@@ -2,6 +2,10 @@ html{
   scroll-behavior: smooth;
 }
 
+*, ::after, ::before{
+  box-sizing: inherit !important;
+}
+
 body {
    padding: 0px;
 }
@@ -73,7 +77,7 @@ header h1{
   font-size: 30px;
 }
 .btn-home{
-  width: 200px;
+  width: 160px;
   cursor: pointer;
   border: none;
   padding: 20px;
@@ -121,4 +125,13 @@ p{
 .parallax-window {
   min-height: 400px;
   background: red;
+}
+
+footer{
+  font-size: 12px;
+  background: #5BAD46;
+  color:white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
 }
