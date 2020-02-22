@@ -12,7 +12,7 @@ header{
     color: white;
     top: 0;
     width: 100%;
-    text-align:center;
+    text-align: center;
 }
 
 header h1{
@@ -58,19 +58,9 @@ header h1{
 }
 
 #main{
-  height: 100vh;
-  background: #ecf0f1;
+  /* background: #ecf0f1; */
   color:black;
-}
-#second{
-  height: 100vh;
-  background: #34495e;
-  color: white;
-}
-#third{
-  height: 100vh;
-  background: #5BAD46;
-  color: white;
+  height:100vh;
 }
 
 #main h1,h2{
@@ -88,14 +78,14 @@ header h1{
   border: none;
   padding: 20px;
   background: #333;
-  color:white;
+  color: white;
   margin: 5px;
 }
 
 #btn1:hover{
   background: #34495e;
   transition: 0.5s;
-  color:white;
+  color: white;
 }
 
 #btn2:hover{
@@ -104,20 +94,31 @@ header h1{
   color: #DEFFD4;
 }
 #main-button{
-  width:420px;
-  margin:0 auto;
+  width: 420px;
+  margin: 0 auto;
 }
 
 #main-carousel{
     width: 60%;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 p{
   width: 75%;
   margin: 0 auto;
+  margin-bottom: 0 !important;
+  padding-bottom: 20px;
+}
+
+.main-text{
+  margin-top: 5px;
 }
 
 .col-sm p{
   width: 100%;
+}
+
+.parallax-window {
+  min-height: 400px;
+  background: red;
 }

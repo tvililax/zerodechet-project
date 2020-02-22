@@ -6,12 +6,14 @@
       <li>S'inscrire</li>
     </ul>
 </header>
+<carousel></carousel>
 
-<div id="main" class="bloc-defi">
+<div id="back-img" style="background: url('assets/bg.png'); background-size: cover;height:70px;"></div>
 
+<div id="main" class="parallax-window" data-parallax="scroll" data-image-src="assets/test.png" class="bloc" >
+    <!-- class="parallax-window" data-parallax="scroll" data-image-src="assets/bg.png" -->
   <h2 class="main-title"> En savoir plus sur nos projets et défis</h2>
-
-  <div id="main-carousel">
+  <div data-aos="fade-in" id="main-carousel">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -38,7 +40,7 @@
       </div>
     </div>
 
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, assumenda exercitationem beatae ducimus repellendus corrupti sed ratione, placeat porro officia nemo id nesciunt, vitae consectetur ab mollitia culpa omnis quis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eos dignissimos eligendi sequi aperiam ex. Facilis corrupti nesciunt nisi sunt! Repudiandae, deleniti! Esse ab ipsum quis optio eveniet fuga autem.</p>
+  <p class='main-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, assumenda exercitationem beatae ducimus repellendus corrupti sed ratione, placeat porro officia nemo id nesciunt, vitae consectetur ab mollitia culpa omnis quis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eos dignissimos eligendi sequi aperiam ex. Facilis corrupti nesciunt nisi sunt! Repudiandae, deleniti! Esse ab ipsum quis optio eveniet fuga autem.</p>
 
   <div id="main-button">
 
@@ -50,33 +52,37 @@
 </div>
 
 <div id="second" class="bloc-defi">
-
+    <img src="assets/rocket.png" style="width:100px; float:left;" alt="rocket" data-aos="slide-up" data-aos-duration="1000" />
   <h2 class="main-title">Défi Zéro Déchet</h2>
+
+  
 
   <div class="container" style="width:
   75%;">
       <div class="row">
         <div class="col-sm">
-          <img style="width:100%;" src="https://mdbootstrap.com/img/Photos/Slides/img%20(45).jpg" alt=""/>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad excepturi nihil magni molestiae commodi quaerat, minima fugit totam saepe tempore eaque repellendus ea! Velit magni fugit blanditiis quidem aliquam consectetur!</p>
+          <img data-aos="zoom-in" style="width:100%;" src="https://mdbootstrap.com/img/Photos/Slides/img%20(45).jpg" alt=""/>
+          <p class='main-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad excepturi nihil magni molestiae commodi quaerat, minima fugit totam saepe tempore eaque repellendus ea! Velit magni fugit blanditiis quidem aliquam consectetur!</p>
         </div>
         <div class="col-sm">
-          <img style="width:100%;" src="https://mdbootstrap.com/img/Photos/Slides/img%20(45).jpg" alt=""/>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad excepturi nihil magni molestiae commodi quaerat, minima fugit totam saepe tempore eaque repellendus ea! Velit magni fugit blanditiis quidem aliquam consectetur!</p>
+          <img data-aos="zoom-in" style="width:100%;" src="https://mdbootstrap.com/img/Photos/Slides/img%20(45).jpg" alt=""/>
+          <p class='main-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad excepturi nihil magni molestiae commodi quaerat, minima fugit totam saepe tempore eaque repellendus ea! Velit magni fugit blanditiis quidem aliquam consectetur!</p>
         </div>
         <div class="col-sm">
-          <img style="width:100%;" src="https://mdbootstrap.com/img/Photos/Slides/img%20(45).jpg" alt=""/>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad excepturi nihil magni molestiae commodi quaerat, minima fugit totam saepe tempore eaque repellendus ea! Velit magni fugit blanditiis quidem aliquam consectetur!</p>
+          <img data-aos="zoom-in" style="width:100%;" src="https://mdbootstrap.com/img/Photos/Slides/img%20(45).jpg" alt=""/>
+          <p class='main-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad excepturi nihil magni molestiae commodi quaerat, minima fugit totam saepe tempore eaque repellendus ea! Velit magni fugit blanditiis quidem aliquam consectetur!</p>
         </div>
       </div>
     </div>
 
-  <form>
-    <p>Recevoir la newsletter
-    <input style="width: 25vw;" type="email" class="form-control" placeholder="Enter email">
+    <p class='main-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium modi obcaecati nostrum harum possimus ab officiis, et, quae reprehenderit corporis quibusdam repellat cupiditate distinctio. Eum illo dolorem temporibus corporis asperiores? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur laudantium voluptates facere nostrum itaque temporibus natus, unde deserunt explicabo modi officiis provident. Magni cumque eveniet maxime facere necessitatibus esse dignissimos!</p>
 
-    <button type="submit" class="btn btn-success">Envoyer</button>
-  </p>
+  <form>
+    <p class='main-text'>Recevoir la newsletter
+      <input style="width: 25vw;" type="email" class="form-control" placeholder="Enter email">
+
+      <button type="submit" class="btn btn-success">Envoyer</button>
+    </p>
   </form>
 
 </div>
@@ -85,9 +91,11 @@
 
   <h2 class="main-title">Défi Alimentaire</h2>
 
-  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt iure, nobis quo natus sequi eos iste velit maiores explicabo aspernatur maxime et quia ipsam magni dolore saepe. Enim, odit magni.</p>
+  <p class='main-text'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt iure, nobis quo natus sequi eos iste velit maiores explicabo aspernatur maxime et quia ipsam magni dolore saepe. Enim, odit magni.</p>
 
-  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt iure, nobis quo natus sequi eos iste velit maiores explicabo aspernatur maxime et quia ipsam magni dolore saepe. Enim, odit magni.</p>
+  <p class='main-text'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt iure, nobis quo natus sequi eos iste velit maiores explicabo aspernatur maxime et quia ipsam magni dolore saepe. Enim, odit magni.</p>
+
+  
 
 </div>
 
