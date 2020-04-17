@@ -16,5 +16,5 @@ const MongooseSchema = new Schema({
 /*
 Export
 */
-module.exports =  mongoose.model('user', MongooseSchema);
+module.exports =  mongoose.model('newsletter', MongooseSchema);
 //
