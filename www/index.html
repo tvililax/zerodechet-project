@@ -2,12 +2,68 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Nos défis</title>
+  <title>Nos Défis</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
+
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <script src="assets/parallax/parallax.js-1.5.0/parallax.js"></script>
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <script src="https://kit.fontawesome.com/8d7e1a3d2b.js" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="styles.09e2c710755c8867a460.css"></head>
+
+<body style="margin: 0 auto; padding: 0;">
   <app-root></app-root>
-<script src="runtime.js" type="module"></script><script src="polyfills.js" type="module"></script><script src="styles.js" type="module"></script><script src="vendor.js" type="module"></script><script src="main.js" type="module"></script></body>
+
+  <script>
+
+
+    document.addEventListener('DOMContentLoaded',function(){
+
+      document.querySelector("#btn1").addEventListener("click",() => {
+        window.scroll({
+          top: window.innerHeight,
+          left: 0,
+          behavior: 'smooth'
+        });
+      },false);
+
+      document.querySelector("#btn2").addEventListener("click",() => {
+        window.scroll({
+          top: (window.innerHeight*2+50),
+          left: 0, 
+          behavior: 'smooth'
+        });
+      },false);
+
+    },false);
+
+  </script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
+
+<script src="runtime-es2015.edb2fcf2778e7bf1d426.js" type="module"></script><script src="runtime-es5.edb2fcf2778e7bf1d426.js" nomodule defer></script><script src="polyfills-es5.6696c533341b95a3d617.js" nomodule defer></script><script src="polyfills-es2015.2987770fde9daa1d8a2e.js" type="module"></script><script src="main-es2015.33625ee44f6c10e1e205.js" type="module"></script><script src="main-es5.33625ee44f6c10e1e205.js" nomodule defer></script></body>
 </html>

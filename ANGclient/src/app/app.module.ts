@@ -20,14 +20,14 @@ Definition & export
 */
   @NgModule({
     declarations: [
-      AppComponent
+      AppComponent,
+      CarouselComponent,
+      FormComponent
     ],
     imports: [
       BrowserModule,
       HttpClientModule,
-      AppRoutingModule,
-      CarouselComponent,
-      FormComponent
+      AppRoutingModule
     ],
     providers: [ ContentService, CrudService ],
     bootstrap: [AppComponent]
