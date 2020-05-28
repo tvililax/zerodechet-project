@@ -8,8 +8,10 @@
 </header> -->
 
 <!-- <div id="back-img" style="background: url('assets/bg.png'); background-size: cover;height:70px;"></div> -->
-<a [routerLink]="">Se connecter</a>
-<a>S'inscrire</a>
+<div style="margin:0 auto; padding:10px; background: rgb(188, 248, 188);">
+  <a style="padding:10px; color:black;" [routerLink]="'/login'">Se connecter</a>
+  <a style="padding:10px; color:black;" [routerLink]="'/login'">S'inscrire</a>
+</div>
 
 <div id="main" class="parallax-window" data-parallax="scroll" data-image-src="assets/test.png" class="bloc">
     <!--   -->
@@ -59,7 +61,7 @@
       Suivez nous dans cette belle aventure ! Globalement, la communication devient cette année un axe important
       des actions du groupe Zéro Déchet Alfortville : ce défi est surtout un moyen d’inviter les gens à passer à l’action face à la problématique de la production de déchets et de montrer aux citoyens que changer leurs habitudes par rapport aux déchets peut être simple, même ludique et leur apporter des bénéfices !</p>
 
-      <a [routerLink]="'/zerodechet'">En savoir plus</a>
+      <p><a class="link-route" [routerLink]="'/zerodechet'">En savoir plus</a></p>
 
       <app-form></app-form>
 
@@ -86,7 +88,7 @@
     alimentaires.
   </p>
 
-  <a [routerLink]="'/alimentaire'">En savoir plus</a>
+  <p><a class="link-route" [routerLink]="'/alimentaire'">En savoir plus</a></p>
 
   <app-form></app-form>
 

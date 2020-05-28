@@ -55,6 +55,20 @@ header h1{
     font-size: 24px;
 }
 
+.link-route{
+  text-align:center;
+  color:white;
+  background: rgb(5, 118, 153);
+  padding: 8px;
+  border-radius: 5px;
+}
+.link-route:hover{
+  color:white;
+  background:rgb(4, 58, 75);
+  transition:0.5s;
+  text-decoration: none;
+}
+
 .bloc-defi{
     padding-top: 45px;
 }
@@ -66,6 +80,17 @@ header h1{
   width: 75%;
   margin:0 auto;
   margin-bottom: 20px;
+}
+
+ul li{
+  display: inline;
+  list-style-type: none;
+}
+
+.cta-login{
+  background: palegreen;
+  border-radius: 10px;
+  color:white;
 }
 
 #main{

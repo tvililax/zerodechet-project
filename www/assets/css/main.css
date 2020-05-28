@@ -68,6 +68,17 @@ header h1{
   margin-bottom: 20px;
 }
 
+ul li{
+  display: inline;
+  list-style-type: none;
+}
+
+.cta-login{
+  background: palegreen;
+  border-radius: 10px;
+  color:white;
+}
+
 #main{
   color:black;
   height:100vh;
