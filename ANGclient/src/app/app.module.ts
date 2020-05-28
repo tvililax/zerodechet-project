@@ -21,7 +21,7 @@ import { AppRouterModule } from "./app.router";
 import { ZerodechetComponent } from './routes/zerodechet/zerodechet.component';
 import { AlimentaireComponent } from './routes/alimentaire/alimentaire.component';
 import { LoginComponent } from './routes/login/login.component';
-import { UserComponent } from './routes/user/user.component'
+import { UserComponent } from './routes/user/user.component';
 
 /*
 Definition & export
@@ -35,7 +35,7 @@ Definition & export
       ZerodechetComponent,
       AlimentaireComponent,
       LoginComponent,
-      UserComponent
+      UserComponent,
     ],
     imports: [
       BrowserModule,
